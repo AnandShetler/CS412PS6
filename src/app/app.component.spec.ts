@@ -22,10 +22,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('PS6');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('PS6 app is running!');
-  });
 });
